@@ -1,7 +1,9 @@
-# Editor Setting files
+# Editor setting files
 .vscode
 .idea
 
 # System files
 .DS_Store
 
+# Temporary development files
+tmp
