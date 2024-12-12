@@ -514,7 +514,7 @@
 				}
 			},
 			"core/search": {
-				"css": "& .wp-block-search__input, .wp-element-button {padding: 10px 20px;} & .wp-block-search__input {background-color: var(--wp--preset--color--contrast); border-color: var(--wp--preset--color--shadow); color: var(--wp--preset--color--shadow-light)}"
+				"css": "& .wp-block-search__input, .wp-element-button {padding: 10px 20px;} & .wp-block-search__input {background-color: var(--wp--preset--color--contrast); border-color: var(--wp--preset--color--shadow); color: var(--wp--preset--color--shadow-light);} & .wp-block-search__input::placeholder {color: var(--wp--preset--color--shadow-light);}"
 			},
 			"core/separator": {
 				"border": {

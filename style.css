@@ -254,16 +254,6 @@ pre.wp-block-prismatic-blocks code.hljs {
 	min-height: calc( 100vh - 230px);
 }
 
-input#wp-block-search__input-1 {
-	background: var(--wp--preset--color--contrast);
-	color: var(--wp--preset--color--shadow-light);
-	border-color: var(--wp--preset--color--shadow);
-}
-
-input#wp-block-search__input-1::placeholder {
-	color: var(--wp--preset--color--text);
-}
-
 /* Media Queries
 ---------------------------------------- */
 
