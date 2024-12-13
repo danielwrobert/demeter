@@ -119,7 +119,7 @@
 				"medium": 1.5,
 				"small": 1.25,
 				"x-large": 2,
-				"x-small": 1.1
+				"x-small": 1.1000000000000001
 			}
 		},
 		"layout": {
