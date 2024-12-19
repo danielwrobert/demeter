@@ -123,7 +123,7 @@
 			}
 		},
 		"layout": {
-			"contentSize": "640px",
+			"contentSize": "740px",
 			"wideSize": "1280px"
 		},
 		"shadow": {
@@ -199,7 +199,7 @@
 			"dropCap": false,
 			"fluid": {
 				"maxViewportWidth": "1280px",
-				"minViewportWidth": "640px"
+				"minViewportWidth": "740px"
 			},
 			"fontFamilies": [
 				{
