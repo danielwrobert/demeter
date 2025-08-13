@@ -70,3 +70,36 @@ if ( ! function_exists( 'demeter_block_styles' ) ) :
 endif;
 
 add_action( 'init', 'demeter_block_styles' );
+
+/**
+ * Register block bindings.
+ */
+
+ if ( ! function_exists( 'demeter_block_bindings' ) ) :
+ 	/**
+ 	 * Register block bindings.
+ 	 *
+ 	 * @since Demeter 1.0
+ 	 *
+ 	 * @return void
+ 	 */
+ 	function demeter_block_bindings() {
+		register_block_bindings_source( 'demeter/copyright', array(
+			'label'              => __( 'Copyright', 'demeter' ),
+			'get_value_callback' => 'demeter_copyright_binding'
+		) );
+	}
+endif;
+
+/**
+ * Get the copyright text.
+ *
+ * @since Demeter 1.0
+ *
+ * @return string
+ */
+function demeter_copyright_binding() {
+	return '&copy; ' . date( 'Y' ) . ' ' . get_bloginfo( 'name' );
+}
+
+add_action( 'init', 'demeter_block_bindings' );
